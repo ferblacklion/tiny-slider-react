@@ -1,7 +1,7 @@
 {
-  "name": "tiny-slider-react",
-  "version": "0.4.0",
-  "description": "wrapper tiny-slider plugin for react",
+  "name": "tiny-slider-react-wrapper",
+  "version": "0.4.1",
+  "description": "this is a fork from tiny-slider-react https://github.com/jechav/tiny-slider-react",
   "main": "build/index.js",
   "scripts": {
     "build": "npx babel lib -d build",
@@ -13,19 +13,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jechav/tiny-slider-react.git"
+    "url": "git+https://github.com/ferblacklion/tiny-slider-react.git"
   },
   "keywords": [
     "tiny-slider",
     "carousel",
-    "react"
+    "react",
+    "slider",
+    "tns",
+    "typescript"
   ],
-  "author": "Jose Echavez <jose.echavez92@gmail.com>",
+  "author": "Moises Cermeño <mo.frc08@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jechav/tiny-slider-react/issues"
+    "url": "https://github.com/ferblacklion/tiny-slider-react/issues"
   },
-  "homepage": "https://github.com/jechav/tiny-slider-react#readme",
+  "homepage": "https://github.com/ferblacklion/tiny-slider-reactt#readme",
   "dependencies": {
     "ventura-slider": "^2.9.1"
   },

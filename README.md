@@ -1,5 +1,5 @@
 ## tiny-slider-react
-
+This is a fork of [tiny-slider-react] (https://github.com/jechav/tiny-slider-react)
 Original plugin [tiny-slider](https://github.com/ganlanyuan/tiny-slider)
 
 [demo](https://codesandbox.io/s/5lzk6jrvn)
@@ -19,7 +19,7 @@ Original plugin [tiny-slider](https://github.com/ganlanyuan/tiny-slider)
 | onTouchEnd         |  [event bind](https://github.com/ganlanyuan/tiny-slider#custom-events) |d
 
 ```js
-import TinySlider from "tiny-slider-react";
+import {TinySlider} from "tiny-slider-react-wrapper";
 
 const settings = {
   lazyload: true,
@@ -53,11 +53,6 @@ const settings = {
 }
 ```
 
-Get the slider from refs:
-
-```js 
-<TinySlider settings={settings} ref={ts => this.ts = ts}>...</TinySlider>
-```
 
 Add onClick for your buttons:
 ```js
