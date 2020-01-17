@@ -1,6 +1,6 @@
 {
   "name": "tiny-slider-react-wrapper",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "this is a fork from tiny-slider-react https://github.com/jechav/tiny-slider-react",
   "main": "build/index.js",
   "scripts": {
