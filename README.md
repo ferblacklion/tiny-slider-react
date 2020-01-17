@@ -19,7 +19,7 @@ Original plugin [tiny-slider](https://github.com/ganlanyuan/tiny-slider)
 | onTouchEnd         |  [event bind](https://github.com/ganlanyuan/tiny-slider#custom-events) |d
 
 ```js
-import {TinySlider} from "tiny-slider-react-wrapper";
+import TinySliderWrapper from "tiny-slider-react-wrapper";
 
 const settings = {
   lazyload: true,
@@ -27,7 +27,7 @@ const settings = {
   mouseDrag: true
 };
 
-<TinySlider settings={settings}>
+<TinySliderWrapper settings={settings}>
     {imgs.map((el, index) => (
       <div key={index} style={{ position: "relative" }}>
         <img
@@ -39,7 +39,7 @@ const settings = {
         />
       </div>
     ))}
-</TinySlider>
+</TinySliderWrapper>
 ```
 
 > How to use external buttons for prev & next
