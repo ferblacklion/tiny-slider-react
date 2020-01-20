@@ -2,6 +2,9 @@
 This is a fork of [tiny-slider-react] (https://github.com/jechav/tiny-slider-react)
 Original plugin [tiny-slider](https://github.com/ganlanyuan/tiny-slider)
 
+UPDATED:
+Removed call to componentWillReceiveProps
+
 [demo](https://codesandbox.io/s/5lzk6jrvn)
 
 ## props

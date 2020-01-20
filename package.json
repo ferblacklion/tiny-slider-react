@@ -28,7 +28,7 @@
   "bugs": {
     "url": "https://github.com/ferblacklion/tiny-slider-react/issues"
   },
-  "homepage": "https://github.com/ferblacklion/tiny-slider-reactt#readme",
+  "homepage": "https://github.com/ferblacklion/tiny-slider-react#readme",
   "dependencies": {
     "ventura-slider": "^2.9.1"
   },
